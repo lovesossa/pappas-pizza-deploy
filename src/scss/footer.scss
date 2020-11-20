@@ -1,0 +1,136 @@
+.footer {
+    background-color: rgb(59, 59, 66);
+    &__top {
+        display: flex;
+        margin-bottom: 50px;
+    }
+    &__top-links {
+        flex: 1 1 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__top-list {
+        padding-right: 35px;
+        max-width: 250px;
+    }
+    &__top-title {
+        color: #fff;
+        font-weight: 700;
+        font-size: 18px;
+        margin: 40px 0 15px;
+    }
+    &__top-link {
+        font-size: 16px;
+        color: rgb(187, 191, 202);
+        margin-bottom: 15px;
+    }
+    &__top-contacts {
+        margin-top: 40px;
+        flex: 1 1 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    &__top-apps {
+        display: flex;
+        margin-bottom: 15px;
+        .footer__top-app{
+            img{
+                max-width: 150px;
+            }
+            &:first-child{
+                margin-right: 10px;
+            }
+        }
+    }
+    &__top-number {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        font-size: 22px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 15px;
+        span{
+            font-size: 15px;
+            color: rgb(151, 150, 150);
+        }
+    }
+    &__top-email {
+        color: rgb(187, 191, 202);
+        font-size: 16px;
+    }
+
+    &__info {
+        display: flex;
+        padding-bottom: 25px;
+        border-bottom: 1px solid rgb(136, 136, 136);
+        margin-bottom: 25px;
+    }
+
+    &__info-box {
+        max-width: 305px;
+        margin-right: 50px;
+    }
+
+    &__bot {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    &__bot-copy {
+    }
+
+    &__bot-social {
+    }
+
+    .info-box {
+        color: #fff;
+		&__stat {
+            font-size: 22px;
+            margin-bottom: 15px;
+            font-weight: 700;
+		}
+
+		&__text {
+            font-size: 16px;
+            color: rgb(202, 200, 200);
+		}
+    }
+
+    .bot-copy {
+        font-size: 16px;
+        color: rgb(187, 191, 202);
+        display: flex;
+        align-items: center;
+		&__logo {
+            font-family: 'Courgette', cursive;
+            font-size: 20px;
+            span{
+                font-family: 'Nunito', sans-serif;
+                margin-right: 10px;
+                font-size: 16px;
+            }
+		}
+
+		&__link {
+            margin: 0 10px;
+		}
+    }
+    .bot-social {
+        display: flex;
+		&__item {
+            margin-right: 15px;
+            width: 35px;
+            img{
+                width: 100%;
+            }
+            &:last-child{
+                margin: 0;
+            }
+		}
+    }
+}
+

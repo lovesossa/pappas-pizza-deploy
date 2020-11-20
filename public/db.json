@@ -1,0 +1,1067 @@
+{
+    "pizzas": [
+      {
+        "id": 0,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/4516c60c26ea4684ae2ed9a520b51906_366x366.jpeg",
+        "name": "Цезарь",
+        "desc": "Свежие листья салата айсберг в конверте, цыплёнок, томаты черри, сыры чеддер и пармезан, моцарелла, сливочный соус, соус цезарь",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 445,
+        "category": 0,
+        "rating": 3
+      },
+      {
+        "id": 1,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/548f06002e5d46c699245285d5f4b1cc_366x366.jpeg",
+        "name": "Песто",
+        "desc": "Соус песто, сливочный соус, цыплёнок, кубики брынзы, томаты черри, моцарелла",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 445,
+        "category": 0,
+        "rating": 5
+      },
+      {
+        "id": 2,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/f57b939a4455453daade38016f61d766_366x366.jpeg",
+        "name": "Пепперони фреш",
+        "desc": "Пикантная пепперони, увеличенная порция моцареллы, томаты, томатный соус",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 245,
+        "category": 3,
+        "rating": 5
+      },
+      {
+        "id": 3,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/2ffc31bb-132c-4c99-b894-53f7107a1441.jpg",
+        "name": "Сырная ",
+        "desc": "Увеличенная порция моцареллы, томатный соус",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 245,
+        "category": 1,
+        "rating": 5
+      },
+      {
+        "id": 4,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/814ad4a5-44bd-4b65-86e2-e6c04e622fda.jpg",
+        "name": "Ветчина и сыр",
+        "desc": "Ветчина, моцарелла, соус альфредо",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 295,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 5,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/30744281-c5e9-48d4-b901-34182833846e.jpg",
+        "name": "Кисло-сладкий цыпленок",
+        "desc": "Цыпленок, томатный соус, моцарелла, кисло-сладкий соус",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 295,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 6,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/b1ffa66f2ebb4e959122e54eaa071109_233x233.jpeg",
+        "name": "Ветчина и грибы",
+        "desc": "Ветчина, шампиньоны, увеличенная порция моцареллы, томатный соус",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 345,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 7,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/ba1a843b-188e-4a6c-851d-c32543547a46.jpg",
+        "name": "Пепперони",
+        "desc": "Пикантная пепперони, увеличенная порция моцареллы, томатный соус",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 395,
+        "category": 3,
+        "rating": 4
+      },
+      {
+        "id": 8,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/1959b0fdf5f049fb9ec12cf05d535bc7_233x233.jpeg",
+        "name": "Чизбургер-пицца",
+        "desc": "Мясной соус болоньезе, моцарелла, красный лук, соленые огурчики, томаты, соус бургер",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 395,
+        "category": 0,
+        "rating": 5
+      },
+      {
+        "id": 9,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/939d9c71-e137-4ad5-9e10-e3ba86ff09a0.jpg",
+        "name": "Сырный цыпленок",
+        "desc": "Цыпленок, сырный соус, моцарелла, томаты",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 395,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 10,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/c4f196c92ac943d59047267af46ceb5d_366x366.jpeg",
+        "name": "Аррива!",
+        "desc": "Соус бургер, цыпленок, соус ранч, чоризо, сладкий перец, красный лук, моцарелла, томаты, чеснок",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 395,
+        "category": 0,
+        "rating": 5
+      },
+      {
+        "id": 11,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/ec29465e-606b-4a04-a03e-da3940d37e0e.jpg",
+        "name": "Четыре сезона",
+        "desc": "Увеличенная порция моцареллы, ветчина, пикантная пепперони, кубики брынзы, томаты, шампиньоны, томатный соус, итальянские травы",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 395,
+        "category": 0,
+        "rating": 5
+      },
+      {
+        "id": 12,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/87e1d77c49bb414996427627c6eff085_366x366.jpeg",
+        "name": "Карбонара",
+        "desc": "Бекон, сыры чеддер и пармезан, моцарелла, томаты черри, красный лук, чеснок, сливочный соус, итальянские травы",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 395,
+        "category": 0,
+        "rating": 6
+      },
+      {
+        "id": 13,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/3354e3c2-8ce0-4d64-a11d-eb4c455b29c6.jpg",
+        "name": "Мексиканская",
+        "desc": "Острый цыпленок, томатный соус, сладкий перец, красный лук, моцарелла, острый перец халапеньо, томаты, соус сальса",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 445,
+        "category": 3,
+        "rating": 4
+      },
+      {
+        "id": 14,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/50bbe373-f791-4690-ace9-8e86421c77c0.jpg",
+        "name": "Гавайская",
+        "desc": "Цыпленок, томатный соус, моцарелла, ананасы",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 395,
+        "category": 0,
+        "rating": 3
+      },
+      {
+        "id": 15,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/42f3d7e7-fe89-447f-a832-2a8507ee010c.jpg",
+        "name": "Цыпленок барбекю",
+        "desc": "Цыпленок, соус барбекю, томатный соус, красный лук, моцарелла, бекон",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 445,
+        "category": 2,
+        "rating": 3
+      },
+      {
+        "id": 16,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/5b24a14f4f6c4718802adc796cd65ae3_233x233.jpeg",
+        "name": "Дон Бекон",
+        "desc": "Цыпленок, пикантная пепперони, томатный соус, красный лук, моцарелла, бекон",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 803,
+        "category": 2,
+        "rating": 3
+      },
+      {
+        "id": 17,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/be94fc3a-2f37-4e50-b19f-ab0f2d7c34ce.jpg",
+        "name": "Двойная пепперони",
+        "desc": "Пикантная пепперони, увеличенная порция моцареллы, томатный соус",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 445,
+        "category": 3,
+        "rating": 3
+      },
+      {
+        "id": 18,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/3d806787-1496-4fc4-a3ec-c272a6ba3c8b.jpg",
+        "name": "Супермясная",
+        "desc": "Цыпленок, митболы из говядины, пикантная пепперони, томатный соус, острая чоризо, моцарелла, бекон",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 495,
+        "category": 0,
+        "rating": 3
+      },
+      {
+        "id": 19,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/69d38b6868e749369ae1427339236512_233x233.jpeg",
+        "name": "Овощи и грибы",
+        "desc": "Итальянские травы, томатный соус, кубики брынзы, шампиньоны, сладкий перец, красный лук, моцарелла, маслины, томаты",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 395,
+        "category": 1,
+        "rating": 2
+      },
+      {
+        "id": 20,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/21379561a76646f1945f1bc759c749b5_233x233.jpeg",
+        "name": "Маргарита",
+        "desc": "Увеличенная порция моцареллы, томаты, итальянские травы, томатный соус",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 345,
+        "category": 1,
+        "rating": 2
+      },
+      {
+        "id": 21,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/6289691b5edd41b6ad280fdc340c4e59_233x233.jpeg",
+        "name": "Запеченное яблоко",
+        "desc": "Яблоки, черная смородина, соус пломбир, лепестки миндаля, корица",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 345,
+        "category": 1,
+        "rating": 2
+      },
+      {
+        "id": 22,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/7cc16926-4746-4cb9-89d0-306941118780.jpg",
+        "name": "Пицца-пирог",
+        "desc": "Ананасы, брусника, молоко сгущенное",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
+        "price": 345,
+        "category": 1,
+        "rating": 2
+      }
+    ],
+    "snacks": [
+      {
+        "id": 33,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/2ec8a54a9a7d44a68b3f97e4b37ed426_233x233.jpeg",
+        "name": "Острый Додстер",
+        "desc": "Горячая закуска с острым цыпленком, перцем халапеньо, солеными огурчиками, томатами, моцареллой и соусом барбекю в тонкой пшеничной лепешке",
+        "price": 159,
+        "category": 0,
+        "rating": 5
+      },
+      {
+        "id": 34,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/44a197add75641e3a2ca2ae879b7fd40_233x233.jpeg",
+        "name": "Додстер Чипотле",
+        "desc": "Горячая закуска с пикантным соусом чипотле из копченых перчиков, цыпленком, томатами, моцареллой в тонкой пшеничной лепешке",
+        "price": 159,
+        "category": 0,
+        "rating": 5
+      },
+      {
+        "id": 35,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/44fa9ef30b664565bd1fc05af780905b_233x233.jpeg",
+        "name": "Додстер",
+        "desc": "Легендарная горячая закуска с цыпленком, томатами, моцареллой, соусом ранч в тонкой пшеничной лепешке",
+        "price": 159,
+        "category": 0,
+        "rating": 5
+      },
+      {
+        "id": 36,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/38fcdc71fc4c4303a0a929cd2c635b9d_233x233.jpeg",
+        "name": "Грибной Стартер",
+        "desc": "Горячая закуска с шампиньонами, моцареллой и соусом ранч в тонкой пшеничной лепешке",
+        "price": 159,
+        "category": 0,
+        "rating": 5
+      },
+      {
+        "id": 51,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/b51d76666eb842d1a3c7c4879c4e3b0e_233x233.jpeg",
+        "name": "Острый Стартер",
+        "desc": "Горячая закуска с острыми колбасками чоризо, острым цыпленком, перцем халапеньо, моцареллой и соусом сальса в тонкой пшеничной лепешке",
+        "price": 159,
+        "category": 0,
+        "rating": 5
+      },
+      {
+        "id": 52,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/a846802a549043e9905744c9c85af53e_233x233.jpeg",
+        "name": "Мясной Стартер",
+        "desc": "Горячая закуска с митболами из говядины, томатами, моцареллой и пикантным соусом чипотле в тонкой пшеничной лепешке",
+        "price": 159,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 53,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/a8a6ba3d4be64846a2ca26e49de3abde_233x233.jpeg",
+        "name": "Блинчики с ветчиной и сыром, 2 шт",
+        "desc": "Воздушные блинчики с сыром и ветчиной из свинины, приготовленные в печи",
+        "price": 159,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 54,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/b583f7299d8c4e4fa313f65ef72e7449_233x233.jpeg",
+        "name": "Ланчбокс с крыльями BBQ",
+        "desc": "Горячий сытный обед из куриных крыльев со специями и ароматом копчения, картофеля из печи с итальянскими травами и соуса барбекю",
+        "price": 159,
+        "category": 295,
+        "rating": 4
+      },
+      {
+        "id": 37,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/c9aaaf78cb11475e86014fd52609f09a_233x233.jpeg",
+        "name": "Ланчбокс с куриными кусочками",
+        "desc": "Горячий сытный обед из нежных куриных кусочков, картофеля из печи с итальянскими травами и сырного соуса",
+        "price": 295,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 38,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/e3eeee00e41c4b2cb4f3f5f2fc0f504e_233x233.jpeg",
+        "name": "Картофель из печи",
+        "desc": "Ароматный запеченный картофель с итальянскими травами. Большая порция",
+        "price": 175,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 39,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/80a7715ede17489db4010ce3c5741efa_233x233.jpeg",
+        "name": "Куриные крылья",
+        "desc": "Куриные крылья со специями и ароматом копчения, большая порция",
+        "price": 350,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 40,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/1c9bd2c1c77d4da28bdc35ad5fc1f5d6_233x233.jpeg",
+        "name": "Куриные кусочки",
+        "desc": "Сочное куриное филе в хрустящей панировке, большая порция",
+        "price": 350,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 41,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/78cd485046b24cf4885c8a66d7876dd1_233x233.jpeg",
+        "name": "Паста Карбонара",
+        "desc": "Паста, бекон, сыры чеддер, пармезан и моцарелла, томаты, соус альфредо, итальянские травы, чеснок",
+        "price": 265,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 42,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/bf64ba7bf4df4660b8ea22270d137e15_233x233.jpeg",
+        "name": "Паста Четыре сыра",
+        "desc": "Паста, сыры блю чиз, чеддер, пармезан и моцарелла, соус альфредо",
+        "price": 265,
+        "category": 0,
+        "rating": 3
+      },
+      {
+        "id": 43,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/d7383d431e504fc4ba1a70bdb256c974_233x233.jpeg",
+        "name": "Паста Цыпленок и грибы",
+        "desc": "Паста, цыпленок, шампиньоны, соус альфредо, моцарелла, чеснок",
+        "price": 265,
+        "category": 0,
+        "rating": 3
+      },
+      {
+        "id": 44,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/8e1a91fc263f4f1493bd21d3772e47da_233x233.jpeg",
+        "name": "Паста Болоньезе",
+        "desc": "Паста, мясной соус болоньезе, моцарелла, итальянские травы, томатный соус",
+        "price": 265,
+        "category": 0,
+        "rating": 3
+      },
+      {
+        "id": 45,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/094f01e3ef054e108c9e48ea9b511d5d_233x233.jpeg",
+        "name": "Рулетики с пепперони + Рулетики с сыром, 16 шт",
+        "desc": "Микс горячих рулетиков с сырным соусом: 8 штук с пепперони и моцареллой, 8 штук с моцареллой",
+        "price": 245,
+        "category": 0,
+        "rating": 3
+      },
+      {
+        "id": 46,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/29062f9996ba4acc9f30dbd26e0ce0b7_233x233.jpeg",
+        "name": "Рулетики с пепперони, 16 шт",
+        "desc": "Горячие рулетики с колбасками пепперони, моцареллой и сырным соусом, 16 шт",
+        "price": 245,
+        "category": 0,
+        "rating": 2
+      },
+      {
+        "id": 47,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/4e1d4acf97ec4222ae9908e8391affd4_233x233.jpeg",
+        "name": "Рулетики с сыром, 16 шт",
+        "desc": "Горячие рулетики с моцареллой и сырным соусом, 16 шт",
+        "price": 245,
+        "category": 0,
+        "rating": 2
+      },
+      {
+        "id": 48,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/ba96144e178b4cc7a0ba213989b9ac92_233x233.jpeg",
+        "name": "Картофельные оладьи, 8 шт",
+        "desc": "Запеченные оладьи из картофеля в панировке, 8 шт",
+        "price": 200,
+        "category": 0,
+        "rating": 2
+      },
+      {
+        "id": 49,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/c40a6eaa6e294312accb81b76397eefd_233x233.jpeg",
+        "name": "Греческий салат с соусом бальзамик",
+        "desc": "Салат айсберг, томаты черри, маслины, свежий огурец, кубики брынзы, соус бальзамик",
+        "price": 129,
+        "category": 0,
+        "rating": 2
+      },
+      {
+        "id": 50,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/a6c4e46096c04bc7bb89b5fa371b2dfe_233x233.jpeg",
+        "name": "Салат Цезарь",
+        "desc": "Цыпленок, свежие листья салата айсберг, томаты черри, пармезан, пшеничные гренки, итальянские травы, соус цезарь",
+        "price": 199 ,
+        "category": 0,
+        "rating": 2
+      }
+    ],
+    "deserts": [
+      {
+        "id": 70,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/86fe757e450745b295c8b1645efc2a3f_233x233.jpeg",
+        "name": "Молочный коктейль с печеньем Орео",
+        "desc": "Напиток из молока и мороженого с добавлением дробленого печенья «Орео»",
+        "price": 175,
+        "category": 0,
+        "rating": 5
+      },
+      {
+        "id": 71,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/f08ef3e758024f378031e8f796480005_233x233.jpeg",
+        "name": "Классический молочный коктейль",
+        "desc": "Напиток из молока и мороженого",
+        "price": 160,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 72,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/478229ad9cfd4e9aa203aa3d0e022bce_233x233.jpeg",
+        "name": "Клубничный молочный коктейль",
+        "desc": "Напиток из молока и мороженого с клубничным сиропом",
+        "price": 160,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 73,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/9b962be9cef54d5ca6197939549e1d5c_233x233.jpeg",
+        "name": "Шоколадный молочный коктейль",
+        "desc": "Напиток из молока и мороженого с шоколадным сиропом",
+        "price": 160,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 74,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/2b05182a613b48aba826a957f4966689_233x233.jpeg",
+        "name": "Карамельный молочный коктейль",
+        "desc": "Напиток из молока и мороженого с карамельным сиропом",
+        "price": 160,
+        "category": 0,
+        "rating": 5
+      },
+      {
+        "id": 75,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/4441a2d30c9c48d3a1ac172fac93ac2d_233x233.jpeg",
+        "name": "Айс Капучино",
+        "desc": "Напиток из молока и мороженого с добавлением эспрессо",
+        "price": 160,
+        "category": 0,
+        "rating": 5
+      },
+      {
+        "id": 76,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/ee223d1417e149babc8a04c710a7e9be_233x233.jpeg",
+        "name": "Блинчики с малиной, 2 шт",
+        "desc": "Воздушные блинчики с малиновой начинкой, приготовленные в печи",
+        "price": 129,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 77,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/3c0598aa88b8455db26640476a0dd0e3_233x233.jpeg",
+        "name": "Рулетики с яблоками, 16 шт",
+        "desc": "Горячие сладкие рулетики с яблоками, нежным соусом пломбир, корицей и лепестками миндаля",
+        "price": 165,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 78,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/2272bd5bd05f4c83bf13568237efeb3c_233x233.jpeg",
+        "name": "Рулетики со смородиной, 16 шт",
+        "desc": "Горячие сладкие рулетики с черной смородиной, нежным соусом пломбир и лепестками миндаля",
+        "price": 165,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 79,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/51de15f3024a4bf3802dc6804968b4ca_233x233.jpeg",
+        "name": "Рулетики с брусникой, 16 шт",
+        "desc": "Горячие сладкие рулетики с натуральной брусникой, политые сгущенным молоком, 16 шт.",
+        "price": 165,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 81,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/c810798810a947cfb071ae825230bed4_233x233.jpeg",
+        "name": "Яблочный пирог",
+        "desc": "Десерт из песочного теста с яблочной начинкой. Может содержать изюм",
+        "price": 119,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 82,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Desserts/ru-RU/4906b9a7-a9df-4540-b34b-18767bc81426.jpg",
+        "name": "Чизкейк Нью-Йорк",
+        "desc": "Классический американский творожный десерт",
+        "price": 119,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 83,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/2c9ccc448944480caec63a60e16bc56e_233x233.jpeg",
+        "name": "Фонданы, 2 шт",
+        "desc": "Два десерта с хрустящей корочкой и топлёной шоколадной начинкой",
+        "price": 290,
+        "category": 0,
+        "rating": 3
+      },
+      {
+        "id": 84,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/4de982c0e81446cd9ea1a6a1b5d0bdb8_233x233.jpeg",
+        "name": "Сырники с малиновым вареньем, 4 шт",
+        "desc": "Нежные сырники, приготовленные в печи, с малиновым вареньем, 4 шт",
+        "price": 290,
+        "category": 0,
+        "rating": 3
+      },
+      {
+        "id": 85,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/e8398bdce9114a3482c68d8f97324d83_233x233.jpeg",
+        "name": "Сырники со сгущенным молоком, 4 шт",
+        "desc": "Нежные сырники, приготовленные в печи, со сгущенным молоком, 4 шт",
+        "price": 290,
+        "category": 0,
+        "rating": 3
+      },
+      {
+        "id": 86,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/1f2ad1463e994ea5849688b64412fd23_233x233.jpeg",
+        "name": "Пончик клубничный",
+        "desc": "Нежный пончик с клубничной начинкой и разноцветной посыпкой",
+        "price": 89,
+        "category": 0,
+        "rating": 3
+      },
+      {
+        "id": 87,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/779d5195e209478887aee4202d5e05ee_233x233.jpeg",
+        "name": "Пончик Три шоколада",
+        "desc": "Нежный пончик с шоколадной начинкой, глазурью и посыпкой",
+        "price": 89,
+        "category": 0,
+        "rating": 5
+      },
+      {
+        "id": 88,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/3af6be8289ce40e5968b7aa8a206c83c_233x233.jpeg",
+        "name": "Маффин Три шоколада",
+        "desc": "Десерт из натурального какао, нежной начинки на основе шоколада и кубиков белого и молочного шоколада",
+        "price": 79,
+        "category": 0,
+        "rating": 5
+      },
+      {
+        "id": 89,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Desserts/ru-RU/f57ff3a1-5f0e-43b1-acb4-5b7cd16e98fb.jpg",
+        "name": "Шоколадный кукис",
+        "desc": "Большое нежное печенье с кусочками шоколада",
+        "price": 59,
+        "category": 0,
+        "rating": 3
+      }
+    ],
+    "drinks": [
+      {
+        "id": 100,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/60db007019724c83a93e82b197169222_233x233.jpeg",
+        "name": "Coca-cola Orange",
+        "desc": "0,5 л",
+        "price": 95,
+        "category": 0,
+        "rating": 5
+      },
+      {
+        "id": 101,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Drinks/ru-RU/100bdee5-90d2-4cc2-a922-9409176ad7fc.jpg",
+        "name": "Coca-cola Zero",
+        "desc": "0,5 л",
+        "price": 95,
+        "category": 0,
+        "rating": 2
+      },
+      {
+        "id": 102,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Drinks/ru-RU/58df4aa8-0e0e-470a-9c40-0e71d1d785b9.jpg",
+        "name": "Coca-cola",
+        "desc": "0,5 л",
+        "price": 95,
+        "category": 0,
+        "rating": 5
+      },
+      {
+        "id": 103,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/30f797d9a7054f9b9a08dab7cf65f7f1_233x233.jpeg",
+        "name": "Coca-cola Vanilla",
+        "desc": "0,5 л",
+        "price": 95,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 104,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Drinks/ru-RU/1241772c-bf7b-4bb0-8dd2-f489babd432d.jpg",
+        "name": "Sprite",
+        "desc": "0,5 л",
+        "price": 95,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 105,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Drinks/ru-RU/0c88cbd0-d1a8-42a9-bb8c-625d0fcd97ca.jpg",
+        "name": "Fanta",
+        "desc": "0,5 л",
+        "price": 95,
+        "category": 0,
+        "rating": 2
+      },
+      {
+        "id": 106,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/2d3500d8b5154f4cb394e046f40231f1_233x233.jpeg",
+        "name": "Schweppes bitter lemon",
+        "desc": "0,33 л",
+        "price": 75,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 107,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Drinks/ru-RU/2053e4b1-d8b1-4cae-bec8-ea8ca19e9797.jpg",
+        "name": "FuzeTea Черный с лимоном и лемонграссом",
+        "desc": "0,5 л",
+        "price": 95,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 108,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Drinks/ru-RU/2816dc79-e367-4488-9090-eba81d1f3b95.jpg",
+        "name": "FuzeTea Зеленый с манго и ромашкой",
+        "desc": "0,5 л",
+        "price": 95,
+        "category": 0,
+        "rating": 3
+      },
+      {
+        "id": 109,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/28eb06769ecc464bb99131d2a00e4547_233x233.jpeg",
+        "name": "FuzeTea Улун малина и мята",
+        "desc": "0,5 л",
+        "price": 95,
+        "category": 0,
+        "rating": 3
+      },
+      {
+        "id": 110,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/8f9732813db14164b2bae8cb6031d838_233x233.jpeg",
+        "name": "Сок Rich Апельсин",
+        "desc": "1 л",
+        "price": 145,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 111,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/6ae400e88f154d289886cd15c01c1da1_233x233.jpeg",
+        "name": "Сок Rich Яблоко",
+        "desc": "1 л",
+        "price": 145,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 112,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/7515e819ea624b8784f418a67bdb33fe_233x233.jpeg",
+        "name": "Нектар Rich Вишня",
+        "desc": "1 л",
+        "price": 145,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 113,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Drinks/ru-RU/54b8ef64-d5d5-46f4-8ad7-b24f0765bfd5.jpg",
+        "name": "BonAqua, негаз.",
+        "desc": "0,5 л",
+        "price": 55,
+        "category": 0,
+        "rating": 3
+      },
+      {
+        "id": 114,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/0766a53ac4c845d6b06a9e96372551d6_233x233.jpeg",
+        "name": "Облепиховый пунш",
+        "desc": "Согревающий напиток с сиропом из ягод облепихи и лимонного сока, 0,3 л",
+        "price": 115,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 115,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Drinks/ru-RU/ff0a610d-4a80-4d08-ac0b-7854109be217.jpg",
+        "name": "Морс Клюква",
+        "desc": "0,45 л",
+        "price": 95,
+        "category": 0,
+        "rating": 5
+      },
+      {
+        "id": 116,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Drinks/ru-RU/ec9759ff-4fc8-45a4-bc46-9727acc9f90d.jpg",
+        "name": "Морс Черная смородина",
+        "desc": "0,45 л",
+        "price": 95,
+        "category": 0,
+        "rating": 5
+      },
+      {
+        "id": 117,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Drinks/ru-RU/74c1be29-a996-4715-af5d-1528a35c6366.jpg",
+        "name": "Морс Вишня",
+        "desc": "0,45 л",
+        "price": 95,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 118,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Drinks/ru-RU/2060fcbb-c1bc-4dc1-a266-1f6877762b28.jpg",
+        "name": "Морс Облепиха",
+        "desc": "0,45 л",
+        "price": 95,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 119,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/104ae812d62e4987a8b2de1603dd8b30_233x233.jpeg",
+        "name": "Пряный латте",
+        "desc": "Горячий напиток на основе эспрессо с увеличенной порцией молока, корицей и сиропом с медово-пряным вкусом, 0,3 л",
+        "price": 135,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 120,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/ae691537c1b348e2a5abb9c1a5518e61_233x233.jpeg",
+        "name": "Кофе Американо",
+        "desc": "Горячий напиток на основе эспрессо, 0,3 л",
+        "price": 75,
+        "category": 0,
+        "rating": 3
+      },
+      {
+        "id": 121,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/207d19908f98470c98d2a9ccdd140435_233x233.jpeg",
+        "name": "Кофе Американо",
+        "desc": "Горячий напиток на основе эспрессо, 0,4 л",
+        "price": 85,
+        "category": 0,
+        "rating": 3
+      },
+      {
+        "id": 122,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/de13f9507bae4cb99e77230eb86aa0d4_233x233.jpeg",
+        "name": "Кофе Флэт уайт",
+        "desc": "Горячий напиток на основе двойной порции эспрессо с добавлением вспененного молока , 0,2 л",
+        "price": 95,
+        "category": 0,
+        "rating": 2
+      },
+      {
+        "id": 123,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/91d99335f1e846fd89c7a2f0081d7eb1_233x233.jpeg",
+        "name": "Кофе Ванильный капучино",
+        "desc": "Горячий напиток на основе эспрессо со вспененным молоком и ванильным сиропом, 0,3 л",
+        "price": 135,
+        "category": 0,
+        "rating": 2
+      },
+      {
+        "id": 124,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/c8a855358d484c51bb7d7c9d988a65c8_233x233.jpeg",
+        "name": "Кофе Карамельный капучино",
+        "desc": "Горячий напиток на основе эспрессо со вспененным молоком и карамельным сиропом, 0,3 л",
+        "price": 135,
+        "category": 0,
+        "rating": 2
+      },
+      {
+        "id": 126,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/da7b4bf4aae04471b8fc776cbcc1a642_233x233.jpeg",
+        "name": "Кофе Капучино",
+        "desc": "Горячий напиток на основе эспрессо со вспененным молоком, 0,4 л",
+        "price": 135,
+        "category": 0,
+        "rating": 2
+      },
+      {
+        "id": 127,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/dfbbbf23b0a1454bb78537ae921df47c_233x233.jpeg",
+        "name": "Кофе Ореховый латте",
+        "desc": "Горячий напиток на основе эспрессо с увеличенной порцией молока и ореховым сиропом, 0,3 л",
+        "price": 135,
+        "category": 0,
+        "rating": 2
+      },
+      {
+        "id": 129,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/1503f77bc8584945b084d4ba2fe0c577_233x233.jpeg",
+        "name": "Кофе Латте",
+        "desc": "Горячий напиток на основе эспрессо с увеличенной порцией молока, 0,4 л",
+        "price": 135,
+        "category": 0,
+        "rating": 4
+      }
+    ],
+    "popularone": [
+      {
+        "id": 10,
+        "imageUrl": "http://localhost:3000/static/media/arriva.f1978e38.webp",
+        "name": "Аррива!",
+        "desc": "",
+        "price": 395,
+        "category": 0,
+        "rating": 5
+      },
+      {
+        "id": 54,
+        "imageUrl": "http://localhost:3000/static/media/lanch-bbq.7f18363b.webp",
+        "name": "Ланчбокс с крыльями BBQ",
+        "desc": "",
+        "price": 295,
+        "category": 0,
+        "rating": 5
+      },
+      {
+        "id": 41,
+        "imageUrl": "http://localhost:3000/static/media/pasta-carbonara.644a85d0.webp",
+        "name": "Паста карбонара",
+        "desc": "",
+        "price": 265,
+        "category": 0,
+        "rating": 5
+      },
+      {
+        "id": 86,
+        "imageUrl": "http://localhost:3000/static/media/ponchik-clubnika.b79be85b.webp",
+        "name": "Пончик клубничный",
+        "desc": "",
+        "price": 89,
+        "category": 0,
+        "rating": 5
+      }
+    ],
+    "populartwo": [
+      {
+        "id": 50,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/a6c4e46096c04bc7bb89b5fa371b2dfe_233x233.jpeg",
+        "name": "Салат Цезарь",
+        "desc": "Цыпленок, свежие листья салата айсберг, томаты черри, пармезан, пшеничные гренки, итальянские травы, соус цезарь",
+        "price": 199 ,
+        "category": 0,
+        "rating": 2
+      },
+      {
+        "id": 70,
+        "imageUrl": "http://localhost:3000/static/media/coctail-oreo.6757c64d.webp",
+        "name": "Коктейль с печеньем Орео",
+        "desc": "",
+        "price": 175,
+        "category": 0,
+        "rating": 5
+      },
+      {
+        "id": 87,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/779d5195e209478887aee4202d5e05ee_233x233.jpeg",
+        "name": "Пончик Три шоколада",
+        "desc": "Нежный пончик с шоколадной начинкой, глазурью и посыпкой",
+        "price": 89,
+        "category": 0,
+        "rating": 5
+      },
+      {
+        "id": 53,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/a8a6ba3d4be64846a2ca26e49de3abde_233x233.jpeg",
+        "name": "Блинчики с ветчиной и сыром, 2 шт",
+        "desc": "Соберите свою пиццу 35 см с двумя разными вкусами",
+        "price": 159,
+        "category": 0,
+        "rating": 5
+      }
+    ],
+    "offers": [
+      {
+        "id": 102,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Drinks/ru-RU/58df4aa8-0e0e-470a-9c40-0e71d1d785b9.jpg",
+        "name": "Coca-cola",
+        "desc": "0,5 л",
+        "price": 95,
+        "category": 0,
+        "rating": 5
+      },
+      {
+        "id": 46,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/29062f9996ba4acc9f30dbd26e0ce0b7_233x233.jpeg",
+        "name": "Рулетики с пепперони",
+        "desc": "Горячие рулетики с колбасками пепперони, моцареллой и сырным соусом, 16 шт",
+        "price": 245,
+        "category": 0,
+        "rating": 2
+      },
+      {
+        "id": 38,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/e3eeee00e41c4b2cb4f3f5f2fc0f504e_233x233.jpeg",
+        "name": "Картофель из печи",
+        "desc": "Ароматный запеченный картофель с итальянскими травами. Большая порция",
+        "price": 175,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 89,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/Desserts/ru-RU/f57ff3a1-5f0e-43b1-acb4-5b7cd16e98fb.jpg",
+        "name": "Шоколадный кукис",
+        "desc": "Большое нежное печенье с кусочками шоколада",
+        "price": 59,
+        "category": 0,
+        "rating": 3
+      },
+      {
+        "id": 48,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/ba96144e178b4cc7a0ba213989b9ac92_233x233.jpeg",
+        "name": "Картофельные оладьи, 8 шт",
+        "desc": "Запеченные оладьи из картофеля в панировке, 8 шт",
+        "price": 200,
+        "category": 0,
+        "rating": 2
+      },
+      {
+        "id": 124,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/c8a855358d484c51bb7d7c9d988a65c8_233x233.jpeg",
+        "name": "Карамельный капучино",
+        "desc": "Горячий напиток на основе эспрессо со вспененным молоком и карамельным сиропом, 0,3 л",
+        "price": 135,
+        "category": 0,
+        "rating": 2
+      },
+      {
+        "id": 71,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/f08ef3e758024f378031e8f796480005_233x233.jpeg",
+        "name": "Классический молочный коктейль",
+        "desc": "Напиток из молока и мороженого",
+        "price": 160,
+        "category": 0,
+        "rating": 4
+      }
+    ],
+    "addsause": [
+      {
+        "id": 500,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/eb0666267fe147e1aeefa26fe5026266_146x146.jpeg",
+        "name": "Сырный соус",
+        "price": 30,
+        "category": 0,
+        "rating": 5
+      },
+      {
+        "id": 501,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/c590ad6347004f9880d24c4c6e13390f_146x146.jpeg",
+        "name": "Барбекю",
+        "price": 30,
+        "category": 0,
+        "rating": 2
+      },
+      {
+        "id": 502,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/c7ea87ae29664effad534587d64dc49f_146x146.jpeg",
+        "name": "Ранч",
+        "price": 30,
+        "category": 0,
+        "rating": 4
+      },
+      {
+        "id": 503,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/fd31628ecf754216b160d5116967d32f_146x146.jpeg",
+        "name": "Сгущёнка",
+        "price": 30,
+        "category": 0,
+        "rating": 3
+      },
+      {
+        "id": 504,
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/154d7042f6484c12bea3864d67292343_146x146.jpeg",
+        "name": "Малиновое варенье",
+        "price": 30,
+        "category": 0,
+        "rating": 2
+      }
+    ]
+}
