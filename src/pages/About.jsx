@@ -1,7 +1,6 @@
-import React from 'react'
-import {comix11,comix12,comix13,comix21,comix22,comix23,comix31,comix32,comix33, clean, stat} from '../components/img.js'
-import { useSelector, useDispatch } from 'react-redux';
-import BotHeader from '../components/BotHeader'
+import React from 'react';
+import {comix11,comix12,comix13,comix21,comix22,comix23,comix31,comix32,comix33, clean, stat} from '../components/img.js';
+import BotHeader from '../components/BotHeader';
 
 
 

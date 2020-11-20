@@ -19,8 +19,6 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  &._loaded {
-  }
 }
 // Контейнер
 .container {
@@ -51,8 +49,6 @@
   }
   &__delivery-pay {
     padding-top: 25px;
-  }
-  &__about-us {
   }
   .nav-header {
     &__link {
@@ -144,10 +140,6 @@
     outline: none;
     border: none;
     z-index: 10;
-  }
-  &__left {
-  }
-  &__right {
   }
   &.active {
     .mainslider__dots {
@@ -481,9 +473,6 @@
     opacity: 1 !important;
     z-index: 1000;
   }
-
-  .swiper-slide-prev {
-  }
 }
 
 .menu-item {
@@ -595,6 +584,9 @@
     }
 
     &__link {
+      background-color: transparent;
+      cursor: pointer;
+      outline: none;
       padding: 5px 10px;
       max-width: 100px;
       border-radius: 0.7em;

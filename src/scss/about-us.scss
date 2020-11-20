@@ -1,6 +1,4 @@
 .about-us {
-  .container {
-  }
   &__inner {
     display: flex;
     flex-direction: column;
@@ -74,12 +72,6 @@
       top: -145px;
       z-index: 5;
     }
-    .comix-1-1 {
-    }
-    .comix-1-2 {
-    }
-    .comix-1-3 {
-    }
     .comix-2-1,
     .comix-2-2,
     .comix-2-3 {
@@ -136,8 +128,6 @@
     padding: 5px 20px;
   }
 
-  &__comix {
-  }
   .nav-header {
     &__link {
       &:first-child {
@@ -150,13 +140,5 @@
         transform: scale(1.02);
       }
     }
-  }
-}
-.container {
-}
-.mix-btn {
-}
-.abous-us {
-  &__image {
   }
 }

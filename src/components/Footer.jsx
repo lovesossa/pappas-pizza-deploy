@@ -1,4 +1,5 @@
 import React from 'react';
+import { yt, vk, inst, fb } from './img'
 
     function Footer() {
         return (
@@ -10,22 +11,22 @@ import React from 'react';
                         <ul className="footer__top-list">
                             <div className="footer__top-title">Pappa`s Pizza</div>
                             <li className="footer__top-link">
-                            <a href="">
+                            <a href="/">
                                 О нас
                                         </a>
                             </li>
                             <li className="footer__top-link">
-                            <a href="">
+                            <a href="/">
                                 Pappas-книга
                                         </a>
                             </li>
                             <li className="footer__top-link">
-                            <a href="">
+                            <a href="/">
                                 Блог «Сила ума»
                                         </a>
                             </li>
                             <li className="footer__top-link">
-                            <a href="">
+                            <a href="/">
                                 Pappas ИС
                                         </a>
                             </li>
@@ -33,12 +34,12 @@ import React from 'react';
                         <ul className="footer__top-list">
                             <div className="footer__top-title">Работа</div>
                             <li className="footer__top-link">
-                            <a href="">
+                            <a href="/">
                                 В пиццерии
                                         </a>
                             </li>
                             <li className="footer__top-link">
-                            <a href="">
+                            <a href="/">
                                 В контакт-центре
                                         </a>
                             </li>
@@ -46,22 +47,22 @@ import React from 'react';
                         <ul className="footer__top-list">
                             <div className="footer__top-title">Партнерам</div>
                             <li className="footer__top-link">
-                            <a href="">
+                            <a href="/">
                                 Франшиза
                                         </a>
                             </li>
                             <li className="footer__top-link">
-                            <a href="">
+                            <a href="/">
                                 Инвестиции
                                         </a>
                             </li>
                             <li className="footer__top-link">
-                            <a href="">
+                            <a href="/">
                                 Поставщикам
                                         </a>
                             </li>
                             <li className="footer__top-link">
-                            <a href="">
+                            <a href="/">
                                 Предложить помещение
                                         </a>
                             </li>
@@ -69,17 +70,17 @@ import React from 'react';
                         <ul className="footer__top-list">
                             <div className="footer__top-title">Это интересно</div>
                             <li className="footer__top-link">
-                            <a href="">
+                            <a href="/">
                                 Почему мы готовим без перчаток?
                                         </a>
                             </li>
                             <li className="footer__top-link">
-                            <a href="">
+                            <a href="/">
                                 Экскурсии и мастер-классы
                                         </a>
                             </li>
                             <li className="footer__top-link">
-                            <a href="">
+                            <a href="/">
                                 Корпоративные заказы
                                         </a>
                             </li>
@@ -88,10 +89,10 @@ import React from 'react';
                         </div>
                         <div className="footer__top-contacts">
                         <div className="footer__top-apps">
-                            <a href="" className="footer__top-app">
+                            <a href="/" className="footer__top-app">
                             <picture><source srcSet="images/links/googleplay.webp" type="image/webp"></source><img src="images/links/googleplay.png" alt=""></img></picture>
                             </a>
-                            <a href="" className="footer__top-app">
+                            <a href="/" className="footer__top-app">
                             <picture><source srcSet="images/links/appstore.webp" type="image/webp"></source><img src="images/links/appstore.png" alt=""></img></picture>
                             </a>
                         </div>
@@ -99,7 +100,7 @@ import React from 'react';
                             8 800 302-00-60
                                     <span>Звонок бесплатный</span>
                         </a>
-                        <a className="footer__top-email" href="">
+                        <a className="footer__top-email" href="/">
                             feedback@pappaspizza.com
                                 </a>
                         </div>
@@ -119,24 +120,23 @@ import React from 'react';
                   <div className="bot-copy__logo">Pappa`s Pizza
                             <span>© 2020</span>
                   </div>
-                  <a href="" className="bot-copy__link">Правовая информация</a>
-                  <a href="" className="bot-copy__link">Калорийность и состав</a>
-                  <a href="" className="bot-copy__link">Помощь</a>
+                  <a href="/" className="bot-copy__link">Правовая информация</a>
+                  <a href="/" className="bot-copy__link">Калорийность и состав</a>
+                  <a href="/" className="bot-copy__link">Помощь</a>
                 </div>
                 <div className="footer__bot-social bot-social">
-                  <a className="bot-social__item" href="">
-                    <picture><source srcSet="images/social/facebook.svg" type="image/webp"></source><img src="images/social/facebook.svg" alt=""></img></picture>
+                  <a className="bot-social__item" href="/">
+                    <img src={fb} alt=""/>
                   </a>
-                  <a className="bot-social__item" href="">
-                    <picture><source srcSet="images/social/instagram.svg" type="image/webp"></source><img src="images/social/instagram.svg" alt=""></img></picture>
+                  <a className="bot-social__item" href="/">
+                    <img src={inst} alt=""/>
                   </a>
-                  <a className="bot-social__item" href="">
-                    <picture><source srcSet="images/social/vk.svg" type="image/webp"></source><img src="images/social/vk.svg" alt=""></img></picture>
+                  <a className="bot-social__item" href="/">
+                    <img src={vk} alt=""/>
                   </a>
-                  <a className="bot-social__item" href="">
-                    <picture><source srcSet="images/social/youtube.svg" type="image/webp"></source><img src="images/social/youtube.svg" alt=""></img></picture>
+                  <a className="bot-social__item" href="/">
+                    <img src={yt} alt=""/>
                   </a>
-    
                 </div>
               </div>
                 </div>

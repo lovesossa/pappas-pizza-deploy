@@ -2,19 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function PopularBlock({ id, name, imageUrl, price, types, sizes, onClickAddPizza, addedCount }) {
-    const availableTypes = ['тонкое', 'традиционное'];
-    const availableSizes = [26, 30, 40];
-  
-    const [activeType, setActiveType] = React.useState(types[0]);
-    const [activeSize, setActiveSize] = React.useState(0);
-  
-    const onSelectType = (index) => {
-      setActiveType(index);
-    };
-  
-    const onSelectSize = (index) => {
-      setActiveSize(index);
-    };
   
     const onAddPizza = () => {
       const obj = {
@@ -22,8 +9,6 @@ function PopularBlock({ id, name, imageUrl, price, types, sizes, onClickAddPizza
         name,
         imageUrl,
         price,
-        size: availableSizes[activeSize],
-        type: availableTypes[activeType],
       };
       onClickAddPizza(obj);
     };
@@ -32,7 +17,7 @@ function PopularBlock({ id, name, imageUrl, price, types, sizes, onClickAddPizza
     return (
         <div className="popular__items-item popular-item">
             <div className="popular-item__inner">
-                <a className="popular-item__image" href=''>
+                <a className="popular-item__image" href="/">
                     <img src={imageUrl} alt=""></img>
                 </a>
                 <div className="popular-item__text">

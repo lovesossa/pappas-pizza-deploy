@@ -2,13 +2,10 @@ import React from 'react';
 import cart from '../images/icons/cart.svg'
 
 class ButtonCart extends React.Component {
-    componentDidMount () {
-        console.log("Комп. кнопка отображен");
-    }
     render () {
         return (
             <div className="bot-header__cart cart-header">
-                <a className="cart-header__link" href="">
+                <a className="cart-header__link" href="/">
                     <div className="cart-header__text">{this.props.children}</div>
                     <picture>
                     <source srcSet={cart} type="image/webp"></source>

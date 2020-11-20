@@ -45,10 +45,10 @@ function Cart() {
     };
     React.useEffect(() => {
         dispatch(fetchOffers());
-    }, []);
+    }, [dispatch]);
     React.useEffect(() => {
         dispatch(fetchSause());
-    }, []);
+    }, [dispatch]);
 
     const offersItems = useSelector(({ offers }) => offers.offersItems);
     const sauseItems = useSelector(({ addsause }) => addsause.sauseItems);

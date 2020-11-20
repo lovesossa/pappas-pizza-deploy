@@ -2,12 +2,12 @@ import React from 'react'
 import { Sticky } from 'react-sticky';
 import { Link } from 'react-router-dom';
 import ButtonCart from './Button';
-import { useSelector, useDispatch } from 'react-redux';
+import { useSelector } from 'react-redux';
 
 
 function BotHeader() {
     
-    const { totalPrice, totalCount } = useSelector(({ cart }) => cart);
+    const { totalPrice } = useSelector(({ cart }) => cart);
 
     return (
         <Sticky>
@@ -42,8 +42,8 @@ function BotHeader() {
                             </ul>
                         </nav>
                         <div className="bot-header__account">
-                            <a className="bot-header__login" href="">Вход</a>
-                            <a className="bot-header__reg" href="">Регистрация</a>
+                            <a className="bot-header__login" href="/">Вход</a>
+                            <a className="bot-header__reg" href="/">Регистрация</a>
                         </div>
                     </div>
                 </div>

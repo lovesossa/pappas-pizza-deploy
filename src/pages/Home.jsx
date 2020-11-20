@@ -159,11 +159,11 @@ if (animItemsDeliv.length > 0) {
 
   const onSelectCategory = React.useCallback((index) => {
     dispatch(setCategory(index));
-  }, []);
+  }, [dispatch]);
 
   const onSelectSortType = React.useCallback((type) => {
     dispatch(setSortBy(type));
-  }, []); 
+  }, [dispatch]); 
 
   const handleAddPizzaToCart = obj => {
     dispatch({
@@ -383,7 +383,7 @@ if (animItemsDeliv.length > 0) {
                         черри,
                         сырами чеддер и пармезан, моцареллой, сливочным соусом и соусом цезарь. Завершите
                                         шедевр!</div>
-                        <a className="discount-box__link" href="">Посмотреть</a>
+                        <button className="discount-box__link">Посмотреть</button>
                     </div>
 
                     </div>
@@ -399,7 +399,7 @@ if (animItemsDeliv.length > 0) {
                         нежным соусом пломбир, кусочками яблока, ягодами черной смородины, корицей и
                         лепестками
                                         миндаля.</div>
-                        <a className="discount-box__link" href="">Посмотреть</a>
+                        <button className="discount-box__link">Посмотреть</button>
                     </div>
                     </div>
                     <div className="discount-inner__box discount-box">
@@ -416,7 +416,7 @@ if (animItemsDeliv.length > 0) {
                         платы, набора из мыши и клавиатуры, 20 лутбоксов, 20 гарнитур, а также 10 промокодов
                         на
                                         5 больших пицц. Итоги подведем 22 октября 2020 на https://vk.com/msi_russia.</div>
-                        <a className="discount-box__link" href="">Посмотреть</a>
+                        <button className="discount-box__link">Посмотреть</button>
                     </div>
                     </div>
                     <div className="discount-inner__box discount-box">
@@ -430,7 +430,7 @@ if (animItemsDeliv.length > 0) {
                         цене.
                         Комбо «Шайбу!» — то, что нужно для захватывающего матча с любимой командой СКА. При
                                         заказе комбо акции не действуют.</div>
-                        <a className="discount-box__link" href="">Посмотреть</a>
+                        <button className="discount-box__link">Посмотреть</button>
                     </div>
                     </div>
                     <div className="discount-inner__box discount-box">
@@ -443,7 +443,7 @@ if (animItemsDeliv.length > 0) {
                         <div className="discount-box__text">Паста с сочным беконом, сырами чеддер, пармезан и
                         моцарелла,
                                         томатами, соусом альфредо, итальянскими травами и чесноком. Попробуйте!</div>
-                        <a className="discount-box__link" href="">Посмотреть</a>
+                        <button className="discount-box__link">Посмотреть</button>
                     </div>
                     </div>
                     <div className="discount-inner__box discount-box">
@@ -460,7 +460,7 @@ if (animItemsDeliv.length > 0) {
                         билетов.
                         Акция действует до 7 октября, только 1 раз. Акция не действует с другими акциями по
                                         промокоду.</div>
-                        <a className="discount-box__link" href="">Посмотреть</a>
+                        <button className="discount-box__link">Посмотреть</button>
                     </div>
                     </div>
                     <div className="discount-inner__box discount-box">
@@ -476,7 +476,7 @@ if (animItemsDeliv.length > 0) {
                         после — хоть каждый день! Перед заказом укажите дату рождения в личном кабинете и
                         набирите товары на минимальную сумму доставки. Акция не действует с Додо-комбо и при
                                         добавлении ингредиентов..</div>
-                        <a className="discount-box__link" href="">Посмотреть</a>
+                        <button className="discount-box__link">Посмотреть</button>
                     </div>
                     </div>
                     <div className="discount-inner__box discount-box">
@@ -491,7 +491,7 @@ if (animItemsDeliv.length > 0) {
                         снизится. Акция действует при заказе на доставку и самовывоз. Не действует с комбо и
                         при
                                         добавлении дополнительных ингредиентов.</div>
-                        <a className="discount-box__link" href="">Посмотреть</a>
+                        <button className="discount-box__link">Посмотреть</button>
                     </div>
                     </div>
                     <div className="discount-inner__box discount-box">
@@ -506,7 +506,7 @@ if (animItemsDeliv.length > 0) {
                         снизится.Акция действует при заказе на доставку и самовывоз. Не действует с комбо и
                         при
                                         добавлении дополнительных ингредиентов.</div>
-                        <a className="discount-box__link" href="">Посмотреть</a>
+                        <button className="discount-box__link">Посмотреть</button>
                     </div>
                     </div>
 
@@ -549,7 +549,7 @@ if (animItemsDeliv.length > 0) {
                     <div className="pay-delivery__block-map">
                         <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d167208.88725982627!2d33.299104301487056!3d49.093502579505056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d753ab9b0218df%3A0x49204e009e9c5b1c!2z0JrRgNC10LzQtdC90YfRg9C6LCDQn9C-0LvRgtCw0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgMzk2MDA!5e0!3m2!1suk!2sua!4v1601819010277!5m2!1suk!2sua"
-                        width="256" height="256" frameBorder="0" style={{border: 'none'}} allowFullScreen=""
+                        title="pizza-frame" width="256" height="256" frameBorder="0" style={{border: 'none'}} allowFullScreen=""
                         aria-hidden="false" tabIndex="0"></iframe>
                     </div>
                     </div>
