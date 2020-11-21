@@ -884,7 +884,7 @@
     "popularone": [
       {
         "id": 10,
-        "imageUrl": "http://localhost:3000/static/media/arriva.f1978e38.webp",
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/c4f196c92ac943d59047267af46ceb5d_366x366.jpeg",
         "name": "Аррива!",
         "desc": "",
         "price": 395,
@@ -893,7 +893,7 @@
       },
       {
         "id": 54,
-        "imageUrl": "http://localhost:3000/static/media/lanch-bbq.7f18363b.webp",
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/b583f7299d8c4e4fa313f65ef72e7449_233x233.jpeg",
         "name": "Ланчбокс с крыльями BBQ",
         "desc": "",
         "price": 295,
@@ -902,7 +902,7 @@
       },
       {
         "id": 41,
-        "imageUrl": "http://localhost:3000/static/media/pasta-carbonara.644a85d0.webp",
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/78cd485046b24cf4885c8a66d7876dd1_233x233.jpeg",
         "name": "Паста карбонара",
         "desc": "",
         "price": 265,
@@ -911,7 +911,7 @@
       },
       {
         "id": 86,
-        "imageUrl": "http://localhost:3000/static/media/ponchik-clubnika.b79be85b.webp",
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/1f2ad1463e994ea5849688b64412fd23_233x233.jpeg",
         "name": "Пончик клубничный",
         "desc": "",
         "price": 89,
@@ -931,7 +931,7 @@
       },
       {
         "id": 70,
-        "imageUrl": "http://localhost:3000/static/media/coctail-oreo.6757c64d.webp",
+        "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/86fe757e450745b295c8b1645efc2a3f_233x233.jpeg",
         "name": "Коктейль с печеньем Орео",
         "desc": "",
         "price": 175,
