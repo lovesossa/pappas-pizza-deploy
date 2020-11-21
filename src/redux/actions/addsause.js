@@ -12,7 +12,7 @@ export const fetchSause = (sortBy, category) => (dispatch) => {
   });
   axios
     .get(
-      `http://localhost:3001/addsause`,
+      `/addsause`,
     )
     .then(({ data }) => {
       dispatch(setSause(data));

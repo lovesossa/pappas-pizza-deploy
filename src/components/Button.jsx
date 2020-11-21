@@ -5,7 +5,7 @@ class ButtonCart extends React.Component {
     render () {
         return (
             <div className="bot-header__cart cart-header">
-                <a className="cart-header__link" href="/">
+                <div className="cart-header__link">
                     <div className="cart-header__text">{this.props.children}</div>
                     <picture>
                     <source srcSet={cart} type="image/webp"></source>
@@ -13,7 +13,7 @@ class ButtonCart extends React.Component {
                             src={cart} alt="">
                             </img>
                     </picture>
-                </a>
+                </div>
             </div>
         )
         // <button>{this.props.children}</button>

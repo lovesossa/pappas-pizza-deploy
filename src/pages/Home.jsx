@@ -133,27 +133,27 @@ if (animItemsDeliv.length > 0) {
 
 
   React.useEffect(() => {
-    dispatch(fetchPizzas(sortBy, category));
+      dispatch(fetchPizzas(sortBy, category)); // eslint-disable-next-line
+    }, [category, sortBy]); 
+
+  React.useEffect(() => {
+    dispatch(fetchSnacks(sortBy, category)); // eslint-disable-next-line
   }, [category, sortBy]);
 
   React.useEffect(() => {
-    dispatch(fetchSnacks(sortBy, category));
+    dispatch(fetchDeserts(sortBy, category)); // eslint-disable-next-line
   }, [category, sortBy]);
 
   React.useEffect(() => {
-    dispatch(fetchDeserts(sortBy, category));
+    dispatch(fetchDrinks(sortBy, category)); // eslint-disable-next-line
   }, [category, sortBy]);
 
   React.useEffect(() => {
-    dispatch(fetchDrinks(sortBy, category));
+    dispatch(fetchPopularOne(sortBy, category)); // eslint-disable-next-line
   }, [category, sortBy]);
 
   React.useEffect(() => {
-    dispatch(fetchPopularOne(sortBy, category));
-  }, [category, sortBy]);
-
-  React.useEffect(() => {
-    dispatch(fetchPopularTwo(sortBy, category));
+    dispatch(fetchPopularTwo(sortBy, category)); // eslint-disable-next-line
   }, [category, sortBy]);
 
 

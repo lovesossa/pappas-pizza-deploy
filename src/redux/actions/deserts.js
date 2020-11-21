@@ -12,7 +12,7 @@ export const fetchDeserts = (sortBy, category) => (dispatch) => {
   });
   axios
     .get(
-      `http://localhost:3001/deserts`,
+      `/deserts`,
     )
     .then(({ data }) => {
       dispatch(setDesert(data));

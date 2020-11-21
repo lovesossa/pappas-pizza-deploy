@@ -12,7 +12,7 @@ export const fetchOffers = (sortBy, category) => (dispatch) => {
   });
   axios
     .get(
-      `http://localhost:3001/offers`,
+      `/offers`,
     )
     .then(({ data }) => {
       dispatch(setOffers(data));

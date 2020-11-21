@@ -12,7 +12,7 @@ export const fetchDrinks = (sortBy, category) => (dispatch) => {
   });
   axios
     .get(
-      `http://localhost:3001/drinks`,
+      `/drinks`,
     )
     .then(({ data }) => {
       dispatch(setDrinks(data));

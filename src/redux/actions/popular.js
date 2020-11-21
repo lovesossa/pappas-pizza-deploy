@@ -3,7 +3,7 @@ import axios from 'axios';
 export const fetchPopularOne = (sortBy, category) => (dispatch) => {
   axios
     .get(
-      `http://localhost:3001/popularone`,
+      `/popularone`,
     )
     .then(({ data }) => {
       dispatch(setPopularOne(data));
@@ -18,7 +18,7 @@ export const setPopularOne = (popItemsOne) => ({
 export const fetchPopularTwo = (sortBy, category) => (dispatch) => {
   axios
     .get(
-      `http://localhost:3001/populartwo`,
+      `/populartwo`,
     )
     .then(({ data }) => {
       dispatch(setPopularTwo(data));
