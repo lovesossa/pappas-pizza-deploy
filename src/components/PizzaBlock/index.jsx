@@ -30,7 +30,7 @@ function PizzaBlock({ id, name, imageUrl, price, types, sizes, onClickAddPizza, 
                 <p className="menu-item__text-desc">{desc}</p>
             </div> 
             <div className="menu-item__choose">
-                <div className="menu-item__price">от {price} ₽</div>
+                <div className="menu-item__price">от {price} ₴</div>
                 <button onClick={onAddPizza} className="choose-btn">Выбрать 
                 {addedCount && <span className="choose-btn__count">{addedCount}</span>}
                 </button>

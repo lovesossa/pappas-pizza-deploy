@@ -81,7 +81,7 @@ function CartItem({ id, type, size, imageUrl, name, types, sizes, totalPrice, to
                             <span>{totalCount}</span>
                             <button onClick={handlePlusItem}><img src={plusicon} alt="" /></button>
                         </div>
-                        <div className="check-item__prodprice"><span>{totalPrice} ₽</span></div>
+                        <div className="check-item__prodprice"><span>{totalPrice} ₴</span></div>
                         <button className="check-item__clear" onClick={handleRemoveClick}><img src={clearicon} alt="" /></button>
                 </div>
 

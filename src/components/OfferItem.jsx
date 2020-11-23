@@ -24,7 +24,7 @@ function OfferItem({ id, name, imageUrl, price, types, sizes, onClickAddPizza, a
             </div>
             <div className="offer-slider__item-inner">
                 <h5 className="offer-slider__item-name">{name}</h5>
-                <button onClick={onAddPizza} className="choose-btn">{price} ₽
+                <button onClick={onAddPizza} className="choose-btn">{price} ₴
                 {addedCount && <span className="choose-btn__count">{addedCount}</span>}
                 </button>
             </div>

@@ -107,8 +107,8 @@ import { yt, vk, inst, fb } from './img'
                     </div>
                     <div className="footer__info">
                         <div className="footer__info-box info-box">
-                        <div className="info-box__stat">230 277 081 ₽</div>
-                        <div className="info-box__text">Выручка российской сети в этом месяце. В прошлом — 1 975 495 246 ₽</div>
+                        <div className="info-box__stat">230 277 081 ₴</div>
+                        <div className="info-box__text">Выручка украинской сети в этом месяце. В прошлом — 1 975 495 246 ₴</div>
                         </div>
                         <div className="footer__info-box info-box">
                         <div className="info-box__stat">649 пиццерий</div>

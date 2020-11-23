@@ -60,7 +60,7 @@ function About() {
                                     <div className="about-us__part">
                                         <div className="about-us__part-name">Моцарелла</div>
                                         <div className="about-us__part-desc">Сыр в пицце - ключевой ингридиент. Мы используем
-                                            настоящую моцареллу от российских поставщиков. Сыр должен тянуться как на
+                                            настоящую моцареллу от украинских поставщиков. Сыр должен тянуться как на
                                             картинке.</div>
                                     </div>
                                     <div className="about-us__part">
@@ -103,8 +103,8 @@ function About() {
                             <div className="about-us__box">
                                 <h3 className="about-us__subtitle">Заморочились на цифрах</h3>
                                 <p className="about-us__text">
-                                    Позвольте представить вам Додо ИС. Это наша информационная система. Мы сами придумали
-                                    её, запрограммировали и продолжаем улучшать каждый день. Додо ИС знает всё. Например,
+                                    Позвольте представить вам Pappa ИС. Это наша информационная система. Мы сами придумали
+                                    её, запрограммировали и продолжаем улучшать каждый день. Pappa ИС знает всё. Например,
                                     как дела прямо сейчас?
                                 </p>
                                 <div className="about-us__block">
@@ -120,7 +120,7 @@ function About() {
                                         </div>
                                         <div className="about-us__row-content">
                                             <div className="about-us__row-text">
-                                                В октябре выручка российской сети составила
+                                                В октябре выручка украинской сети составила
                                             </div>
                                             <span>410 441 882</span>
                                             <div className="about-us__row-text">
@@ -129,7 +129,7 @@ function About() {
                                         </div>
                                     </div>
                                     <div className="about-us__row">
-                                        <div className="about-us__row-link">Но эта информация уже устарела →</div>
+                                        <div className="about-us__row-link">Но эта информация уже устарела</div>
                                         <button onClick={onRefresh} className="about-us__row-btn mix-btn">Обновить</button>
                                     </div>
                                 </div>
@@ -140,7 +140,7 @@ function About() {
                                     поставками; анализ продаж; ещё за десяток вещей, о которых нормальные люди не могут
                                     одновременно помнить, а она может, потому что она — не человек.
                                 </p>
-                                <p className="about-us__text">Поверьте, без Додо ИС ничего бы не получилось.</p>
+                                <p className="about-us__text">Поверьте, без Pappa ИС ничего бы не получилось.</p>
 
                             </div>
                             <div className="about-us__box">

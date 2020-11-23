@@ -21,7 +21,7 @@ function AddSause({ id, name, imageUrl, price, types, sizes, onClickAddPizza, ad
                 <img src={imageUrl} alt=""/>
             </div>
             <h5 className="item-addsauce__name">{name}</h5>
-            <button onClick={onAddPizza} className="choose-btn">{price} ₽
+            <button onClick={onAddPizza} className="choose-btn">{price} ₴
                 {addedCount && <span className="choose-btn__count">{addedCount}</span>}
             </button>
         </div>

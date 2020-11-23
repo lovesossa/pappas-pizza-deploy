@@ -3,29 +3,44 @@
   &__top {
     display: flex;
     margin-bottom: 50px;
+    align-items: center;
+    @media (max-width: $md1+px) {
+      flex-wrap: wrap;
+    }
   }
   &__top-links {
     flex: 1 1 90%;
     display: flex;
     justify-content: space-between;
+    @media (max-width: $md1+px) {
+      flex-wrap: wrap;
+      justify-content: flex-start;
+    }
   }
   &__top-list {
     padding-right: 35px;
     max-width: 250px;
+    min-width: 175px;
   }
   &__top-title {
     color: #fff;
     font-weight: 700;
     font-size: 18px;
     margin: 40px 0 15px;
+    @media (max-width: $md2+px) {
+      font-size: 14px;
+    }
   }
   &__top-link {
     font-size: 16px;
     color: rgb(187, 191, 202);
     margin-bottom: 15px;
+    @media (max-width: $md2+px) {
+      font-size: 12px;
+      margin-bottom: 5px;
+    }
   }
   &__top-contacts {
-    margin-top: 40px;
     flex: 1 1 10%;
     display: flex;
     flex-direction: column;
@@ -78,6 +93,9 @@
     justify-content: space-between;
     width: 100%;
     margin-bottom: 25px;
+    @media (max-width: 750px) {
+      flex-direction: column;
+    }
   }
 
   .info-box {
@@ -86,11 +104,18 @@
       font-size: 22px;
       margin-bottom: 15px;
       font-weight: 700;
+      @media (max-width: $md2+px) {
+        font-size: 16px;
+        white-space: nowrap;
+      }
     }
 
     &__text {
       font-size: 16px;
       color: rgb(202, 200, 200);
+      @media (max-width: $md2+px) {
+        font-size: 12px;
+      }
     }
   }
 
@@ -99,6 +124,12 @@
     color: rgb(187, 191, 202);
     display: flex;
     align-items: center;
+    @media (max-width: $md2+px) {
+      font-size: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+      justify-content: space-between;
+    }
     &__logo {
       font-family: 'Courgette', cursive;
       font-size: 20px;
@@ -107,14 +138,24 @@
         margin-right: 10px;
         font-size: 16px;
       }
+      @media (max-width: 750px) {
+        margin-bottom: 10px;
+      }
     }
 
     &__link {
       margin: 0 10px;
+      margin-bottom: 5px;
     }
   }
   .bot-social {
     display: flex;
+    @media (max-width: $md2+px) {
+      justify-content: flex-end;
+    }
+    @media (max-width: 589px) {
+      justify-content: center;
+    }
     &__item {
       margin-right: 15px;
       width: 25px;

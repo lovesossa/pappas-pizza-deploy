@@ -130,7 +130,7 @@ function Cart() {
                         ))}
                         </div>
                     </div>
-                    <div className="main-cart__totalprice">Сумма заказа: <span>{totalPrice} ₽</span></div>
+                    <div className="main-cart__totalprice">Сумма заказа: <span>{totalPrice} ₴</span></div>
                     <div className="main-cart__btns">
                         <button className="main-cart__btns-confirm">Оформить заказ</button>
                     </div> 

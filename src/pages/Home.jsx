@@ -45,8 +45,8 @@ function Home() {
 
 // скролл по якорю
 const anchors = [].slice.call(document.querySelectorAll('a[href*="#"]')),
-animationTime = 1200,
-framesCount = 900;
+animationTime = 200,
+framesCount = 400;
 
 anchors.forEach(function(item) {
 item.addEventListener('click', function(e) {
@@ -76,14 +76,14 @@ if (animItemsDisc.length > 0) {
 
             const animItemHeight = animItemDisc.offsetHeight;
             const animItemOffset = offset(animItemDisc).top;
-            const animStart = 4;
+            const animStart = 5;
 
             let animItemPoint = window.innerHeight - animItemHeight / animStart;
             if ( animItemHeight > window.innerHeight){
                 animItemPoint = window.innerHeight - animItemHeight / animStart;
             }
 
-            if (( window.pageYOffset > animItemOffset - animItemPoint) && window.pageYOffset < ( animItemOffset + animItemHeight / 1.475 )){
+            if (( window.pageYOffset > animItemOffset - animItemPoint) && window.pageYOffset < ( animItemOffset + animItemHeight )){
                 animNavDisc.classList.add('_active');
             }else{
                 animNavDisc.classList.remove('_active');
@@ -108,14 +108,14 @@ if (animItemsDeliv.length > 0) {
 
             const animItemHeight = animItemDeliv.offsetHeight;
             const animItemOffset = offset(animItemDeliv).top;
-            const animStart = 1;
+            const animStart = 5;
 
             let animItemPoint = window.innerHeight - animItemHeight / animStart;
             if ( animItemHeight > window.innerHeight){
                 animItemPoint = window.innerHeight - animItemHeight / animStart;
             }
 
-            if (( window.pageYOffset > animItemOffset - animItemPoint) && window.pageYOffset < ( animItemOffset + animItemHeight  )){
+            if (( window.pageYOffset > animItemOffset - animItemPoint) && window.pageYOffset < ( animItemOffset + animItemHeight )){
                 animNavDeliv.classList.add('_noactive');
             }else{
                 animNavDeliv.classList.remove('_noactive');
@@ -220,7 +220,7 @@ if (animItemsDeliv.length > 0) {
             <div className="page__popular container popular" id="head9">
                 <h2 className="popular__title">Популярное</h2>
                 <div className="popular__inner">
-                <div className="popular__slider">
+                    <div className="popular__slider">
                     <Swiper
                     spaceBetween={1000}
                     slidesPerView={1}
@@ -453,10 +453,10 @@ if (animItemsDeliv.length > 0) {
                     <div className="discount-box__title">Розыгрыш билетов на мультфильм «Семейка Бигфутов»</div>
                     <div className="discount-box__content">
 
-                        <div className="discount-box__text">Разыгрываем 1000 сертификатов по 450 ₽ на кино-премьеру
-                        «Семейка Бигфутов». Для участия соберите корзину на 1099 ₽ и введите промокод KINO.
+                        <div className="discount-box__text">Разыгрываем 1000 сертификатов по 450 ₴ на кино-премьеру
+                        «Семейка Бигфутов». Для участия соберите корзину на 1099 ₴ и введите промокод KINO.
                         Проведем розыгрыш два раза: 28 сентября и 7 октября, результаты опубликуем в группе
-                        Вконтакте «Додо Пицца Россия», победителям пришлем смс с промокодом на покупку
+                        Вконтакте «Pappas Pizza Украина», победителям пришлем смс с промокодом на покупку
                         билетов.
                         Акция действует до 7 октября, только 1 раз. Акция не действует с другими акциями по
                                         промокоду.</div>
@@ -474,7 +474,7 @@ if (animItemsDeliv.length > 0) {
                         именинника. Подарок ждет вас за три дня до дня рождения, в день рождения и десять
                         дней
                         после — хоть каждый день! Перед заказом укажите дату рождения в личном кабинете и
-                        набирите товары на минимальную сумму доставки. Акция не действует с Додо-комбо и при
+                        набирите товары на минимальную сумму доставки. Акция не действует с Pappa-комбо и при
                                         добавлении ингредиентов..</div>
                         <button className="discount-box__link">Посмотреть</button>
                     </div>
@@ -532,12 +532,12 @@ if (animItemsDeliv.length > 0) {
                     </div>
                     <div className="pay-delivery__block">
                     <div className="pay-delivery__row">
-                        <div className="pay-delivery__block-title">495 ₽</div>
+                        <div className="pay-delivery__block-title">495 ₴</div>
                         <div className="pay-delivery__block-text">Минимальная сумма доставки без учета товаров из
                                         категории «Другие товары»</div>
                     </div>
                     <div className="pay-delivery__row">
-                        <div className="pay-delivery__block-title">7 000 ₽</div>
+                        <div className="pay-delivery__block-title">7 000 ₴</div>
                         <div className="pay-delivery__block-text">
                         Максимальная сумма при оплате наличными
                                         <span>Изображения продуктов могут отличаться от продуктов в заказе.</span>

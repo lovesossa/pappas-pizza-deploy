@@ -887,6 +887,8 @@
         "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/c4f196c92ac943d59047267af46ceb5d_366x366.jpeg",
         "name": "Аррива!",
         "desc": "",
+        "types": [0, 1],
+        "sizes": [26, 30, 40],
         "price": 395,
         "category": 0,
         "rating": 5

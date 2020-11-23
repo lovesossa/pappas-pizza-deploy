@@ -7,6 +7,8 @@ function PopularBlock({ id, name, imageUrl, price, types, sizes, onClickAddPizza
       const obj = {
         id,
         name,
+        types,
+        sizes,
         imageUrl,
         price,
       };
@@ -22,7 +24,7 @@ function PopularBlock({ id, name, imageUrl, price, types, sizes, onClickAddPizza
                 </a>
                 <div className="popular-item__text">
                     <div className="popular-item__name">{name}</div>
-                    <div onClick={onAddPizza} className="popular-item__price">от {price} ₽
+                    <div onClick={onAddPizza} className="popular-item__price">от {price} ₴
                     {addedCount && <span className="popular-item__price-count">{addedCount}</span>}
                     </div>
                 </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { mainlogo } from './img'
 
 function Header() {
     return (
@@ -10,7 +11,7 @@ function Header() {
             <div className="header__top">
                 <div className="header__top-inner">
                     <Link to='/'>
-                        <div className="logo-link">link</div>
+                        <div className="logo-link"><img className="logo-image" src={mainlogo} alt=""/></div>
                     </Link>
                     <a className="header__top-phone" href="tel:88003020060">8 800 302-00-60
                     <span>Звонок бесплатный</span>
