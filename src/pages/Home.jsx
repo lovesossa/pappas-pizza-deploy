@@ -19,6 +19,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper.scss';
 import 'swiper/components/navigation/navigation.scss';
 import 'swiper/components/pagination/pagination.scss';
+import 'swiper/components/effect-fade/effect-fade.scss';
+
+import { element } from 'prop-types';
 
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]);
 
@@ -42,29 +45,30 @@ function Home() {
   const isLoaded = useSelector(({ pizzas }) => pizzas.isLoaded);
   const { category, sortBy } = useSelector(({ filters }) => filters);
   
+// function scroller() {
+//     const buttonDisc = document.getElementById('head2');
+//     const buttonDeliv = document.getElementById('head3');
+//     const buttonMenu = document.getElementById('head1');
+//     function scrollToDisc () {
+//         const scrollToDisc = document.querySelector('.discount-title');
+//         scrollToDisc.scrollIntoView({ behavior: 'smooth' });
+//     }
+//     function scrollToDeliv () {
+//         const scrollToDeliv = document.querySelector('.pay-delivery');
+//         scrollToDeliv.scrollIntoView(false, { behavior: 'smooth' });
+//     }
+//     function scrollToMenu () {
+//         const scrollToMenu = document.querySelector('.menu-nav');
+//         scrollToMenu.scrollIntoView({ behavior: 'smooth' });
+//     }
+//     buttonDisc.addEventListener('click', scrollToDisc);
+//     buttonDeliv.addEventListener('click', scrollToDeliv);
+//     buttonMenu.addEventListener('click', scrollToMenu);
+// }
+// setTimeout(scroller, 300);
+
 
 // скролл по якорю
-const anchors = [].slice.call(document.querySelectorAll('a[href*="#"]')),
-animationTime = 200,
-framesCount = 400;
-
-anchors.forEach(function(item) {
-item.addEventListener('click', function(e) {
-    e.preventDefault();
-    let coordY = document.querySelector(item.getAttribute('href')).getBoundingClientRect().top + window.pageYOffset;
-
-    let scroller = setInterval(function() {
-    let scrollBy = coordY / framesCount;
-
-    if(scrollBy > window.pageYOffset - coordY && window.innerHeight + window.pageYOffset < document.body.offsetHeight) {
-    window.scrollBy(0, scrollBy);
-    } else {
-    window.scrollTo(0, coordY);
-    clearInterval(scroller);
-    }
-    }, animationTime / framesCount);
-    });
-});
 // Анимация навигации
 const animItemsDisc = document.querySelectorAll('._anim-disc');
 if (animItemsDisc.length > 0) {
@@ -179,6 +183,8 @@ if (animItemsDeliv.length > 0) {
             <div className="page__mainslider mainslider">
                 <Swiper
                 spaceBetween={100}
+                speed={500}
+                effect={'fade'}
                 slidesPerView={1}
                 pagination={{ clickable: true, dynamicBullets: true, }}
                 autoplay={{delay: 3500,
@@ -223,6 +229,8 @@ if (animItemsDeliv.length > 0) {
                     <div className="popular__slider">
                     <Swiper
                     spaceBetween={1000}
+                    speed={500}
+                    effect={'fade'}
                     slidesPerView={1}
                     autoplay={{delay: 3500,
                         disableOnInteraction: true,}}
@@ -262,7 +270,7 @@ if (animItemsDeliv.length > 0) {
             </div>
             <div className="page__menu menu">
                 <div className="container">
-                <div className="menu-slider__nav menu-nav ">
+                <div className="menu-slider__nav menu-nav" id="block-menu">
                     <span className="menu-nav__item active ">Пицца</span>
                     <span className="menu-nav__item">Закуски</span>
                     <span className="menu-nav__item">Десерты</span>
@@ -368,7 +376,7 @@ if (animItemsDeliv.length > 0) {
                 </div>
                 </div>
             </div>
-            <div className="page__discount discount _anim-disc" id="head1">
+            <div className="page__discount discount _anim-disc" id="block-disc">
                 <div className="container">
                 <div className="discount-title">Акции доставки и самовывоза</div>
                 <div className="discount-inner">
@@ -514,7 +522,7 @@ if (animItemsDeliv.length > 0) {
                 </div>
                 </div>
             </div>
-            <div className="page__delivery-pay pay-delivery _anim-deliv" id='head2'>
+            <div className="page__delivery-pay pay-delivery _anim-deliv" id="block-deliv">
                 <div className="container">
                 <div className="pay-delivery__title">Доставка и оплата</div>
                 <div className="pay-delivery__inner">

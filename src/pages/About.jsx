@@ -7,7 +7,7 @@ import BotHeader from '../components/BotHeader';
 
 function About() {
     function onRefresh () {
-        alert("СБУ запретила использование этой кнопки :(");
+        console.log('refresh');
       };
     return (
         <div className="wrapper">

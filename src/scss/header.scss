@@ -258,14 +258,15 @@
       font-weight: 700;
       color: #555555;
       line-height: 15px;
-      border-bottom: 2px solid #fff;
       display: inline-block;
+      @media (min-width: $md3+px) {
+        &:hover {
+          text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
+        }
+      }
       @media (max-width: $md2+px) {
         font-size: 13px;
       }
-    }
-    &:hover {
-      transform: scale(1.02);
     }
     &:last-child {
       margin-right: 0;
@@ -278,9 +279,8 @@
 .about-wrapper {
   .nav-header {
     &__link {
-      border: none;
       &:last-child {
-        border-bottom: 3px solid #00a653;
+        color: #02914a;
       }
     }
   }

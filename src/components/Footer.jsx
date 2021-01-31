@@ -1,5 +1,5 @@
 import React from 'react';
-import { yt, vk, inst, fb } from './img'
+import { yt, vk, inst, fb, appstore, googleplay } from './img'
 
     function Footer() {
         return (
@@ -90,10 +90,10 @@ import { yt, vk, inst, fb } from './img'
                         <div className="footer__top-contacts">
                         <div className="footer__top-apps">
                             <a href="/" className="footer__top-app">
-                            <picture><source srcSet="images/links/googleplay.webp" type="image/webp"></source><img src="images/links/googleplay.png" alt=""></img></picture>
+                                <img src={appstore} alt=""></img>
                             </a>
                             <a href="/" className="footer__top-app">
-                            <picture><source srcSet="images/links/appstore.webp" type="image/webp"></source><img src="images/links/appstore.png" alt=""></img></picture>
+                                <img src={googleplay} alt=""></img>
                             </a>
                         </div>
                         <a className="footer__top-number" href="tel:88003020060">

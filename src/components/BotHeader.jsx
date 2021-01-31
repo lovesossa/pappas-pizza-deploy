@@ -21,19 +21,19 @@ function BotHeader() {
                             <nav className="bot-header__nav nav-header _anim-nav" >
                                 <ul className="nav-header__list">
                                     <li className="nav-header__link">
-                                        <Link to='/'>
-                                            <a className="nav-header__link-child" href="#head9">Меню</a>
-                                        </Link>
+                                        <a href="/#block-menu">
+                                            <div className="nav-header__link-child" id="head1">Меню</div>
+                                        </a>
                                     </li>
                                     <li className="nav-header__link">
-                                        <Link to='/'>
-                                            <a className="nav-header__link-child" href="#head1">Акции</a>
-                                        </Link>
+                                        <a href="/#block-disc">
+                                            <div className="nav-header__link-child" id="head2">Акции</div>
+                                        </a>
                                     </li>
                                     <li className="nav-header__link">
-                                        <Link to='/'>
-                                            <a className="nav-header__link-child" href="#head2">Доставка</a>
-                                        </Link>
+                                        <a href="/#block-deliv">
+                                            <div className="nav-header__link-child" id="head3">Доставка</div>
+                                        </a>
                                     </li>
                                     <li className="nav-header__link">
                                         <Link to='/about'>

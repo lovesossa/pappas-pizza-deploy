@@ -246,16 +246,13 @@
     &__link {
       &:first-child {
         .nav-header__link-child {
-          border-bottom: 2px solid #fff;
+          color: #555555;
         }
       }
       &:last-child {
         .nav-header__link-child {
-          border-bottom: 2px solid #00a653;
+          color: #02914a;
         }
-      }
-      &:hover {
-        transform: scale(1.02);
       }
     }
   }

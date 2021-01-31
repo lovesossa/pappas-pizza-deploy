@@ -30,14 +30,18 @@
   }
   &__popular {
     margin-bottom: 300px;
-    @media (max-width: 589px) {
-      margin-bottom: 750px !important;
+    .swiper-slide {
+      opacity: 0 !important;
     }
-    @media (max-width: 1139px) {
-      margin-bottom: 450px;
+    .swiper-slide.swiper-slide-active {
+      opacity: 1 !important;
+      z-index: 1000;
     }
     @media (max-width: 1250px) {
-      margin-bottom: 370px;
+      margin-bottom: 430px;
+    }
+    @media (max-width: 589px) {
+      margin-bottom: 750px !important;
     }
   }
   &__menu {
@@ -54,12 +58,11 @@
     &__link {
       &:first-child {
         .nav-header__link-child {
-          border-bottom: 2px solid #00a653;
+          color: #02914a;
         }
       }
       @media (min-width: $md2+px) {
         &:hover {
-          transform: scale(1.02);
         }
       }
     }
@@ -67,12 +70,12 @@
       .nav-header__link {
         &:first-child {
           .nav-header__link-child {
-            border-bottom: 2px solid #fff;
+            color: #555555;
           }
         }
         &:nth-child(2) {
           .nav-header__link-child {
-            border-bottom: 2px solid #00a653;
+            color: #02914a;
           }
         }
       }
@@ -81,17 +84,17 @@
       .nav-header__link {
         &:first-child {
           .nav-header__link-child {
-            border-bottom: 2px solid #fff;
+            color: #555555;
           }
         }
         &:nth-child(2) {
           .nav-header__link-child {
-            border-bottom: 2px solid #fff;
+            color: #555555;
           }
         }
         &:nth-child(3) {
           .nav-header__link-child {
-            border-bottom: 2px solid #00a653;
+            color: #02914a;
           }
         }
       }
@@ -215,6 +218,7 @@
   position: relative;
   &__title {
     font-size: 24px;
+    margin-bottom: 30px;
     @media (max-width: $md2+px) {
       font-size: 20px;
     }

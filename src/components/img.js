@@ -87,10 +87,13 @@ import yt from '../images/social/youtube.svg'
 
 import mainlogo from '../images/main-logo.png'
 
+import appstore from '../images/links/googleplay.png'
+import googleplay from '../images/links/appstore.png'
+
 export {
     sl1,sl2,sl3,sl4,sl5,sl6,carbonara,arriva,lanchbbq,pastacarbonara,ponchikclubnika,tomatbeef,coctailoreo,ponchikchoco,polovinki, focheese,caesar,apple,cheeseburger,ciplenok, havaii,kislosladkiy,mexico,peperoni,pesto,superbeef,vetchina, 
     fourseasons,tomatgrenki,dodsterhot,dodsterchipotle,dodster,startermush, starterhot,starterbeef,blinchikivet,
     lanchchiken,cartofelbecon,cartofelciplenok,crilishki,nuggets,pastafourcheese,pastaciplenokgribi,pastaboloniese,oladyi,salatgreek,salatcaesar, dCaesar,dSweet,dGamer,dHokey,dCarbonara,dMovie,dBirthday,dCola,dCola3,
-    comix11,comix12,comix13,comix21,comix22,comix23,comix31,comix32,comix33, clean, stat, cartsmile, cartempty, clearicon, minusicon, plusicon, trash,
+    comix11,comix12,comix13,comix21,comix22,comix23,comix31,comix32,comix33, clean, stat, cartsmile, cartempty, clearicon, minusicon, plusicon, trash, appstore, googleplay,
     yt, vk, inst, fb, mainlogo
 };
